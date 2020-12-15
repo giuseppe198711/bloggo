@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+      width: 1200px;
+      display: flex;
+      justify-content: center;
+  }
+
+  i {
+      margin-top: 20px;
+      width: 40px;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  .continue {
+    font-family: 'Permanent Marker', cursive;
+    color: #881642;
+    text-decoration: none;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 40px;
+  }
+  
+  .list {
+    display: flex;
+    display: row;
+  }
+  
+  .list li {
+    color: #808080;
+    list-style: none;
+    padding: 0 15px;
+  }
+  
+  li:hover {
+    color: #881642;
+    cursor: pointer;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: #8B959E;
+  }
+  
+  .open-menu {
+    position: relative;
+  }
+
+  .img-post {
+      width: 400px;
+      height: 300px;
+  }
+
+
+  .container {
+      width: 800px;
+      margin: auto;
+      text-align: center;
+  }
+
+  h1 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 70px;
+      color: grey;
+  }
+
+  span {
+      color: #881642;
+      font-size: 100px;
+  }
+
+  .title-post {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 40px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      color: #881642;
+  }
+
+  h2 {
+    color: #808080;
+    text-align: center;
+  }
+
+  //create
+
+  .title-create {
+    color: #881642;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.form-post {
+    margin-left: 50px;
+}
+
+.button-save {
+    background-color: #881642;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button-save:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+//contact
+
+.title-contact {
+    color: #808080;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+h4 {
+    color: #881642;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.button-send {
+    background-color: #881642;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.button-send:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+footer {
+
+    height: 200px;
+    background-color: #881642;
+    display: flex;
+    justify-content: space-around;
+    a {
+        color: white;
+    }
+
+}
+
+  
